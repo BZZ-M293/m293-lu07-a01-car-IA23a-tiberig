@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>Fahrzeug-Konfigurator</title>
+    <meta charset="UTF-8">
+    <title>Fahrzeug-Konfigurator</title>
 
 </head>
 <body>
 
 <h1>Fahrzeug-Konfigurator</h1>
-
-
+<form action="https://it.bzz.ch/demo/formdata/index.php">
+    <fieldset>
+        <label for="Fahrzeugmodell">Fahrzeugmodell: </label>
+        <select name="Fahrzeugmodell" id="Fahrzeugmodell">
+            <option>Model A</option>
+            <option>Model B</option>
+            <option>Model C</option>
+            <option>Model D</option>
+            <option>Model E</option>
+            <option>Model F</option>
+            <option>Model G</option>
+            <option>Model H</option>
+            <option>Model I</option>
+            <option>Model J</option>
+            <option>Model K</option>
+            <option>Model L</option>
+            <option>Model M</option>
+            <option>Model N</option>
+            <option>Model O</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Lackfarbe:</legend>
+        <input type="radio" id="r" name="Lackfarbe" value="Rot">
+        <label for="r"> Rot</label>
+        <input type="radio" id="s" name="Lackfarbe" value="Schwarz">
+        <label for="s"> Schwarz</label>
+        <input type="radio" id="b" name="Lackfarbe" value="Blau">
+        <label for="b"> Blau</label>
+        <input type="radio" id="g" name="Lackfarbe" value="Gruen">
+        <label for="g"> Gruen</label>
+    </fieldset>
+    <button type="submit">submit</button>
+</form>
 </body>
 </html>
